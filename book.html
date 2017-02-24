@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Book Ticket
+        </title>
+        <link rel="stylesheet" href="book.css" type="text/css" />
+        <script src="book.js" type="text/Javascript"></script>
+    </head>
+    <body>
+        <center>
+            <h1 class="heading">Movies List</h1>
+        </center>
+        <div class="pictures">
+            <img src = "fantastic four.jpg" alt = "Fantastic four" class="fantastic"/>
+            <form method="post" name="registerForm">
+            <input type="submit" value="Book" onclick="submitAction('ticket.html')" />
+            </form>
+            <img src = "alvin and the chipmunks.jpg" alt ="Alvin and the chipmunks" class = "alvin" />
+            <form method="post" name="registerForm">
+            <input type="button" value="Book" onclick="submitAction('ticket.html')" />
+            </form>
+        </div>
+        <div class="ratings">
+            <div>
+                <h1>Fantastic four</h1>
+            <h3>RaterName:Abi Ratings:3</h3>
+            <h3>RaterName:Banu Ratings:4</h3>
+            </div>
+            <div>
+                <h1>Alvin and the Chipmunks</h1>
+                <h3>RaterName:Abi Ratings:4</h3>
+                <h3>RaterName:Banu Ratings:5</h3>
+            </div>
+        </div>
+        <div>
+            Interested in writing comments??<br />
+            <textarea name="comment"></textarea>
+        </div>
+    </body>
+</html>
