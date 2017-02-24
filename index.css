@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: firebrick;
+}
+img{
+    width: 300px;
+    height: 240px;
+}
+.login{
+    display: inline-block;
+    text-align: left;
+    border-style: solid;
+    border-color: firebrick;
+    padding: 5px;
+}
+p{
+    text-align: center;
+}
+.formAlign{
+    margin:0 auto;
+    width: 15%;
+    text-align: left;
+}
+.signupform{
+    display: inline-block;
+    text-align: left;
+    border-style: solid;
+    border-color: firebrick;
+    padding: 5px;
+}
+.signup{
+    margin:0 auto;
+    width: 17%;
+    text-align: left;
+}
+.imageAlign{
+    text-align: center;
+}
