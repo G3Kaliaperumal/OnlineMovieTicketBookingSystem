@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book Ticket</title>
+<script src="ticket.js"></script>
+</head>
+<body>
+<div>
+<h1>Alvin and the Chipmunks</h1>
+</div>
+<div>
+<label> Number of seats</label>
+<input type="text" id="noOfSeats" placeholder="Enter no of seats" /><br/>
+<label> Type Of Ticket </label><br/>
+<input type="radio" name="ticketType" value="FirstClass" />FirstClass<br/>
+<input type="radio" name="ticketType" value="SecondClass" />SecondClass<br/>
+<input type="radio" name="ticketType" value="BoxOffice" />BoxClass<br/>
+</div>
+<input type="submit" name="priceCalculation" value="Done" onclick="priceCalculation()"/>
+<p id="result"></p>
+</body>
+</html>

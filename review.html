@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reviews</title>
+<script src="review.js"></script>
+</head>
+<body>
+<label> Enter your name:</label>
+<input type="text" id="name" name="movieRaterName" /><br><br>
+<label> Enter the movie that you want to rate: </label>
+<input type="text" id="movie" name="movie" /><br>
+<label>Enter the ratings:(1 to 5)</label>
+<input type="text" id="rating" name="rating" /><br>
+<p>Comment:</p>
+<textarea id="comment" name="comment"></textarea>
+<input type="button" value="post" onclick="post()" />
+<p class="result" value="Thank you for your review"></p>
+</body>
+</html>
